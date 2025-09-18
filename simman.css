@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/*************** NAVIGATION **************/
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 6.5rem;
+    margin-block: 2.5rem;
+    margin-inline-end: 3.2rem;    
+}
+
+.nav-bar a {
+    color:#1800ad;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover {
+    color: #ffffff;
+    background-color: #ed87dc ;
+    border: #dad7ec solid 0.0625rem;
+    border-radius: 5rem;
+    padding: 1rem;
+}
+
+
+
+/***************** BODY ******************/
+body {
+    background-color: #FFF8F0;
+    color: #1800ad;
+    font-family: "Poppins";
+}
+
+                  
+.first-paragraph {   /* welcome */
+  margin: 6rem auto;
+  font-size: 1.2rem;
+  max-width: 70%;
+  max-inline-size: fit-content;
+  border: #dad7ec solid 0.125rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: #fffffff1;
+}
+
+.first-paragraph a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1800ad;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4rem; 
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+/* about me */ 
+.intro-text-pic { /*the whole section */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin: 3rem auto;
+    max-inline-size: max-content;
+    gap: 2rem;
+    padding: 3rem;
+    border: #dad7ec solid 2px ;
+    border-radius: 10rem;
+    background-color: #fffffff1;
+}
+
+.intro-text-pic img { /*just the image*/
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: #1800ad solid 1rem;
+}
+
+
+.about-me-text { /* my name is -- */
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 45%;
+    font-size: 1.2rem;
+}
+
+div { /* the lil star square */ 
+   display:flex;
+   justify-content: end;
+   margin: 0 auto;
+}
+
+.ul-facts {
+  list-style: none;
+  margin: 2rem auto;
+  border: #ed87dc solid 0.1rem;
+  border-radius: 4rem;
+  padding: 1rem;
+  background-color: #fffffff1;
+
+}
+
+.ul-facts li::marker {
+  content: "   ★  ";
+}
+
+
+.current-faves {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-inline-size: fit-content;
+    margin: 0 auto;
+}
+   
+.current-faves img {
+    margin: 4rem auto;
+    width: 15rem;
+    border-radius: 10px;
+    
+}
+
+.current-faves img:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* projects */
+
+.project-1-text {
+   display: block; 
+   max-width: 50%;
+   font-size: 1.2rem;
+   padding: 2.5rem;
+   background-color: #fffffff1;
+   border: #dad7ec solid 0.1rem;
+   border-radius: 1rem;
+
+   margin-top: 5rem;
+   margin-left: 3rem;
+}
+
+.project-1-images { /*the whole section*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-1-images img {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+
+.project-1-images img:hover {
+    transform: scale(1.2)
+}
+
+
+.project-2-text {
+   display: block; 
+   max-width: 50%;
+   font-size: 1.2rem;
+   padding: 2.5rem;
+   background-color: #fffffff1;
+   border: #dad7ec solid 0.1rem;
+   border-radius: 1rem;
+   margin-top: 5rem;
+   margin-left: 3rem;
+}
+
+.project-2-images { /*the whole section*/
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+
+}
+
+.project-2-images img {
+     width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.project-2-images img:hover {
+    transform: scale(1.2)
+}
+
+video {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+/***************** FOOTER **************/
+.footer-container {
+    text-align: center;
+    border-top:#1800ad solid 1px;
+    font-weight:bold;
+    padding: 1rem;
+    margin-top:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
